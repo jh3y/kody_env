@@ -1,0 +1,26 @@
+"*":
+  core:
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+    useCustomTitleBar: true
+  editor:
+    autoIndentOnPaste: false
+    destroyEmptyPanes: false
+    excludeVcsIgnoredPaths: false
+    fontSize: 12
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+  preferredLineLength: 80
+  tabLength: 2
+  "tree-view":
+    hideVcsIgnoredFiles: false
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ensureSingleTrailingNewline: true

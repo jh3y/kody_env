@@ -1,0 +1,75 @@
+{
+  "order": [
+    "gitconfig.js",
+    "homebrew.js",
+    "brewCask.js",
+    "*"
+  ],
+  "gitCredentials": {
+    "name": "jh3y",
+    "email": "jh3y@users.noreply.github.com"
+  },
+  "brewInstalls": [
+    "git",
+    "fish",
+    "node",
+    "elasticsearch",
+    "mongodb"
+  ],
+  "apmPackages": [
+    "color-picker",
+    "tabs-to-spaces",
+    "language-pug",
+    "trailing-spaces",
+    "editorconfig",
+    "file-icons",
+    "language-babel",
+    "minimap",
+    "stylus",
+    "cucumber",
+    "todo-show",
+    "pigments"
+  ],
+  "brewCasks": [
+    "android-file-transfer",
+    "atom",
+    "audacity",
+    "firefox",
+    "flux",
+    "google-chrome",
+    "google-drive",
+    "google-hangouts",
+    "slack",
+    "skype",
+    "spotify",
+    "steam",
+    "skitch",
+    "opera",
+    "wacom-tablet",
+    "xquartz",
+    "inkscape"
+  ],
+  "fishDefaultScriptPath": "fish/set_default.sh",
+  "osxDefaultScriptPath": "osx/set_default.sh",
+  "globalNpmModules": [
+    "bower",
+    "caniuse-cmd",
+    "gulp",
+    "pug-cli",
+    "russ",
+    "sike",
+    "yarn"
+  ],
+  "osxAppsToRemove": [
+    "Contacts.app",
+    "Calculator.app",
+    "Messages.app",
+    "iBooks.app",
+    "iTunes.app",
+    "Facetime.app",
+    "Maps.app",
+    "Notes.app",
+    "Mail.app",
+    "Game Center.app"
+  ]
+}

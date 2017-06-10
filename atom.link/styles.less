@@ -1,0 +1,41 @@
+/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed.
+ *
+ * If you are unfamiliar with LESS, you can read more about it here:
+ * http://www.lesscss.org
+ */
+
+.tree-view {
+
+}
+@color: #FFF;
+
+.editor,
+atom-text-editor {
+  .indent-guide {
+    opacity: .4;
+    color: @color;
+  }
+  .comment {
+    font-style: italic;
+  }
+  .invisible-character {
+    opacity: .4;
+    color: @color;
+  }
+}
+
+.editor .cursor {}
+
+.editor .selection .region,
+atom-text-editor .selection .region {
+  background-color: rgba(255, 0, 0, .5);
+}
+
+.editor.is-focused  .selection .region,
+atom-text-editor.is-focused .selection .region {
+  background-color: rgba(255, 0, 0, .5);
+}
