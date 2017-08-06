@@ -5,7 +5,7 @@
       "one-dark-ui"
       "base16-tomorrow-dark-theme"
     ]
-    useCustomTitleBar: true
+    titleBar: "custom"
   editor:
     autoIndentOnPaste: false
     destroyEmptyPanes: false

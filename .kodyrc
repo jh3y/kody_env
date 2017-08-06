@@ -26,9 +26,9 @@
     "language-babel",
     "minimap",
     "stylus",
-    "cucumber",
     "todo-show",
-    "pigments"
+    "pigments",
+    "prettier-atom"
   ],
   "brewCasks": [
     "android-file-transfer",
