@@ -12,11 +12,22 @@
     excludeVcsIgnoredPaths: false
     fontSize: 12
     invisibles: {}
+    preferredLineLength: 80
     showIndentGuide: true
     showInvisibles: true
     softWrap: true
     softWrapAtPreferredLineLength: true
+  "linter-ui-default":
+    panelHeight: 69
   preferredLineLength: 80
+  "prettier-atom":
+    formatOnSaveOptions:
+      showInStatusBar: true
+    prettierOptions:
+      semi: false
+      singleQuote: true
+      trailingComma: "all"
+    useEslint: true
   tabLength: 2
   "tree-view":
     hideVcsIgnoredFiles: false
