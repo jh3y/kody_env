@@ -30,6 +30,19 @@
     "pigments",
     "prettier-atom"
   ],
+  "codeExtensions": [
+    "EditorConfig.EditorConfig",
+    "dzannotti.vscode-babel-coloring",
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode",
+    "ms-vscode.atom-keybindings",
+    "ms-vscode.node-debug2",
+    "robertohuertasm.vscode-icons",
+    "sysoev.language-stylus",
+    "vsmobile.vscode-react-native",
+    "wix.vscode-import-cost",
+    "zhuangtongfa.Material-theme"
+  ],
   "brewCasks": [
     "android-file-transfer",
     "atom",
