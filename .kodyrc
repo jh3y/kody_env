@@ -12,9 +12,7 @@
   "brewInstalls": [
     "git",
     "fish",
-    "node",
-    "elasticsearch",
-    "mongodb"
+    "node"
   ],
   "apmPackages": [
     "color-picker",
@@ -46,31 +44,27 @@
   "brewCasks": [
     "android-file-transfer",
     "atom",
-    "audacity",
     "firefox",
-    "flux",
+    "iterm2",
     "google-chrome",
     "google-drive",
-    "google-hangouts",
     "slack",
-    "skype",
     "spotify",
     "steam",
     "skitch",
     "opera",
-    "wacom-tablet",
     "xquartz",
-    "inkscape"
+    "inkscape",
+    "whatsapp",
+    "zeplin",
+    "visual-studio-code",
+    "firefox-developer-edition"
   ],
   "fishDefaultScriptPath": "fish/set_default.sh",
   "osxDefaultScriptPath": "osx/set_default.sh",
   "globalNpmModules": [
-    "bower",
     "caniuse-cmd",
     "gulp",
-    "pug-cli",
-    "russ",
-    "sike",
     "yarn"
   ],
   "osxAppsToRemove": [
