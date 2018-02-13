@@ -12,6 +12,22 @@
   "editor.fontLigatures": true,
   "editor.renderIndentGuides": true,
   "editor.renderWhitespace": "boundary",
+  "emojisense.emojiDecoratorsEnabled": true,
+  "emojisense.markupCompletionsEnabled": true,
+  "emojisense.unicodeCompletionsEnabled": true,
+  "emojisense.showOnColon": true,
+  "emojisense.languages": {
+    "markdown": true,
+    "javascript": true,
+    "jade": true,
+    "html": true,
+    "makefile": true,
+    "plaintext": {
+      "markupCompletionsEnabled": false,
+      "emojiDecoratorsEnabled": false
+    },
+    "git-commit": true
+  },
   "window.title": "${activeEditorMedium}${separator}${rootName}",
   "files.trimTrailingWhitespace": true,
   "telemetry.enableTelemetry": false,
