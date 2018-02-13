@@ -1,0 +1,18 @@
+{
+  "packageManager": "yarn",
+  "presets": {
+    ".vue-preset": {
+      "useConfigFiles": true,
+      "plugins": {
+        "@vue/cli-plugin-babel": {},
+        "@vue/cli-plugin-pwa": {},
+        "@vue/cli-plugin-eslint": {
+          "config": "prettier",
+          "lintOn": []
+        },
+        "@vue/cli-plugin-unit-jest": {}
+      },
+      "cssPreprocessor": "stylus"
+    }
+  }
+}

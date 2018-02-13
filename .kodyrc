@@ -69,7 +69,8 @@
   "globalNpmModules": [
     "caniuse-cmd",
     "gulp",
-    "yarn"
+    "yarn",
+    "@vue/cli"
   ],
   "osxAppsToRemove": [
     "Contacts.app",
