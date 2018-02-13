@@ -43,7 +43,9 @@
     "sysoev.language-stylus",
     "vsmobile.vscode-react-native",
     "wix.vscode-import-cost",
-    "zhuangtongfa.Material-theme"
+    "zhuangtongfa.Material-theme",
+    "octref.vetur",
+    "sdras.vue-vscode-snippets"
   ],
   "brewCasks": [
     "android-file-transfer",
