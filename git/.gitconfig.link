@@ -1,10 +1,10 @@
 # Simple gitconfig
 #
 [user]
-  name = AUTHORNAME
-  email = AUTHOREMAIL
+  name = jh3y
+  email = jh3y@users.noreply.github.com
 [credential]
-  helper = GIT_CREDENTIAL_HELPER
+  helper = osxkeychain
 [core]
   excludesfile = ~/.gitignore
 [push]

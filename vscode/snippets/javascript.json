@@ -1,0 +1,28 @@
+{
+	"New_React_Component": {
+		"prefix": "nrc",
+		"body": [
+			"import PropTypes from 'prop-types'",
+			"import React, { Component } from 'react'",
+			"",
+			"class $1 extends Component {",
+			"  static defaultProps = {}",
+			"  static propTypes = {}",
+			"  state = {}",
+			"  render = () => {",
+			"    return (<h1>🌮</h1>)",
+			"  }",
+			"}",
+			"",
+			"export default $1"
+		],
+		"description": "Create new React Component"
+	},
+	"New_Styled_Component": {
+		"prefix": "nsc",
+		"body": [
+			"const $1 = styled.${2:div}``"
+		],
+		"description": "Create new Styled Component"
+	}
+}

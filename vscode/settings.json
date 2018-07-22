@@ -1,5 +1,4 @@
 {
-  "workbench.colorTheme": "Monokai",
   "editor.tabSize": 2,
   "editor.fontSize": 12,
   "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
@@ -48,7 +47,13 @@
     "suppressLineUncommittedWarning": false,
     "suppressNoRepositoryWarning": false,
     "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true,
     "suppressUpdateNotice": false,
     "suppressWelcomeNotice": true
-  }
+  },
+  "window.zoomLevel": 0,
+  "gitlens.historyExplorer.enabled": true,
+  "workbench.colorTheme": "Monokai",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": false
 }

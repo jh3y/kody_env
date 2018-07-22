@@ -1,20 +1,16 @@
 {
-  "order": [
-    "gitconfig.js",
-    "homebrew.js",
-    "brewCask.js",
+  "running_order": [
+    "homebrew",
     "*"
   ],
-  "gitCredentials": {
-    "name": "jh3y",
-    "email": "jh3y@users.noreply.github.com"
-  },
-  "brewInstalls": [
+  "brew_installs": [
+    "antigen",
     "git",
     "fish",
-    "node"
+    "node",
+    "zsh"
   ],
-  "apmPackages": [
+  "apm_packages": [
     "color-picker",
     "tabs-to-spaces",
     "language-pug",
@@ -28,7 +24,7 @@
     "pigments",
     "prettier-atom"
   ],
-  "codeExtensions": [
+  "code_extensions": [
     "EditorConfig.EditorConfig",
     "Zignd.html-css-class-completion",
     "bierner.emojisense",
@@ -45,15 +41,23 @@
     "wix.vscode-import-cost",
     "zhuangtongfa.Material-theme",
     "octref.vetur",
-    "sdras.vue-vscode-snippets"
+    "sdras.vue-vscode-snippets",
+    "pnp.polacode",
+    "coenraads.bracket-pair-colorizer",
+    "formulahendry.auto-rename-tag",
+    "formulahendry.auto-close-tag",
+    "sirtori.indenticator",
+    "oderwat.indent-rainbow"
   ],
-  "brewCasks": [
+  "brew_casks": [
     "android-file-transfer",
     "atom",
+    "docker",
+    "homebrew/cask-fonts/font-fira-mono-for-powerline",
     "firefox",
     "iterm2",
     "google-chrome",
-    "google-drive",
+    "google-backup-and-sync",
     "slack",
     "spotify",
     "steam",
@@ -64,17 +68,23 @@
     "whatsapp",
     "zeplin",
     "visual-studio-code",
-    "firefox-developer-edition"
+    "firefox-developer-edition",
+    "zoomus"
   ],
-  "fishDefaultScriptPath": "fish/set_default.sh",
-  "osxDefaultScriptPath": "osx/set_default.sh",
-  "globalNpmModules": [
-    "caniuse-cmd",
-    "gulp",
+  "fish_script": "fish/set_default.sh",
+  "osx_script": "osx/set_default.sh",
+  "npm_list": [
+    "create-react-app",
+    "gatsby-cli",
+    "lighthouse",
+    "react-native-cli",
+    "react-native-git-upgrade",
+    "gulp-cli",
+    "sike",
     "yarn",
     "@vue/cli"
   ],
-  "osxAppsToRemove": [
+  "osx_apps": [
     "Contacts.app",
     "Calculator.app",
     "Messages.app",

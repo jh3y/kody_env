@@ -2,14 +2,15 @@
 
 node_modules/
 
-**/git/gitconfig.link
-
 **/fish/fish_history
 **/fish/fishd
 
 **/fishd.*
 
 **/configstore/*
+**/gtk-2.0/*
+**/inkscape/*
+**/yarn/*
 
 **/atom.link/.atom
 **/atom.link/.gitignore
