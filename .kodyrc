@@ -6,7 +6,6 @@
   "brew_installs": [
     "antigen",
     "git",
-    "fish",
     "node",
     "zsh"
   ],
@@ -35,7 +34,7 @@
     "ms-vscode.atom-keybindings",
     "ms-vscode.node-debug2",
     "naumovs.color-highlight",
-    "robertohuertasm.vscode-icons",
+    "vscode-icons-team.vscode-icons",
     "sysoev.language-stylus",
     "vsmobile.vscode-react-native",
     "wix.vscode-import-cost",
@@ -51,8 +50,6 @@
   ],
   "brew_casks": [
     "android-file-transfer",
-    "atom",
-    "docker",
     "homebrew/cask-fonts/font-fira-mono-for-powerline",
     "firefox",
     "iterm2",
@@ -68,7 +65,7 @@
     "whatsapp",
     "zeplin",
     "visual-studio-code",
-    "firefox-developer-edition",
+    "homebrew/cask-versions/firefox-developer-edition",
     "zoomus"
   ],
   "fish_script": "fish/set_default.sh",
@@ -76,10 +73,6 @@
   "npm_list": [
     "create-react-app",
     "gatsby-cli",
-    "lighthouse",
-    "react-native-cli",
-    "react-native-git-upgrade",
-    "gulp-cli",
     "sike",
     "yarn",
     "@vue/cli"

@@ -1,7 +1,6 @@
 {
   "editor.tabSize": 2,
   "editor.fontSize": 12,
-  "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
   "editor.renderWhitespace": "boundary",
   "editor.insertSpaces": true,
   "editor.minimap.enabled": true,
@@ -32,7 +31,6 @@
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
   "atomKeymap.promptV3Features": true,
-  "workbench.iconTheme": "vscode-icons",
   "prettier.printWidth": 80,
   "prettier.trailingComma": "es5",
   "prettier.parser": "flow",
@@ -53,7 +51,22 @@
   },
   "window.zoomLevel": 0,
   "gitlens.historyExplorer.enabled": true,
-  "workbench.colorTheme": "Monokai",
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "explorer.confirmDragAndDrop": false
+  "explorer.confirmDragAndDrop": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "Monokai",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

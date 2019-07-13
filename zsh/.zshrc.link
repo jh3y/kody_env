@@ -144,7 +144,8 @@ alias npm_clog="npm list --global --depth 0"
 #
 # Serve current directory
 #
-alias serve="python -m SimpleHTTPServer 8000"
+# alias serve="python -m SimpleHTTPServer 8000"
+serve() { python -m SimpleHTTPServer "${1:-8000}" }
 
 #
 # Network utils
