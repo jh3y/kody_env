@@ -50,6 +50,7 @@
   ],
   "brew_casks": [
     "android-file-transfer",
+    "calibre",
     "homebrew/cask-fonts/font-fira-mono-for-powerline",
     "firefox",
     "iterm2",
@@ -58,12 +59,9 @@
     "slack",
     "spotify",
     "steam",
-    "skitch",
-    "opera",
     "xquartz",
     "inkscape",
     "whatsapp",
-    "zeplin",
     "visual-studio-code",
     "homebrew/cask-versions/firefox-developer-edition",
     "zoomus"
@@ -72,10 +70,8 @@
   "osx_script": "osx/set_default.sh",
   "npm_list": [
     "create-react-app",
-    "gatsby-cli",
     "sike",
-    "yarn",
-    "@vue/cli"
+    "yarn"
   ],
   "osx_apps": [
     "Contacts.app",

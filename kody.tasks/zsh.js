@@ -9,6 +9,7 @@ const task = {
   name: 'zsh',
   description: 'set up oh-my-zsh',
   exec: (resolve, reject, shell, config, log) => {
+    shell.exec('chsh -s $(which zsh)')
     shell.exec(`sh -c "$(curl -fsSL ${INSTALL_SCRIPT})"`)
     resolve()
   },
