@@ -1,6 +1,7 @@
 .DS_Store
 
 node_modules/
+iterm/*
 
 **/fish/fish_history
 **/fish/fishd
@@ -11,7 +12,6 @@ node_modules/
 **/gtk-2.0/*
 **/inkscape/*
 **/yarn/*
-
 **/atom.link/.atom
 **/atom.link/.gitignore
 **/atom.link/.node-gyp/*
