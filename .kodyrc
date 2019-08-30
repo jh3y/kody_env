@@ -64,6 +64,8 @@
     "whatsapp",
     "visual-studio-code",
     "homebrew/cask-versions/firefox-developer-edition",
+    "homebrew/cask-drivers/logitech-options",
+    "spectacle",
     "zoomus"
   ],
   "fish_script": "fish/set_default.sh",
