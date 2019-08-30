@@ -155,6 +155,9 @@ alias ethernet_off="sudo ifconfig en0 down"
 alias wifi_on="sudo ifconfig en1 up"
 alias wifi_off="sudo ifconfig en1 down"
 
+# vpn-fix whitelisting alias: https://github.com/darahayes/vpn-fix
+alias vpnfix='sudo ~/vpn-fix/vpn-fix ~/vpn-fix/whitelist.txt'
+
 DEFAULT_USER=$USER
 prompt_context(){}
 
