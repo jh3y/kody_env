@@ -22,3 +22,4 @@ iterm/*
 **/atom.link/themes/*
 **/atom.link/.apm/
 **/atom.link/blob-store/
+**/config.link/gatsby

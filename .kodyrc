@@ -7,6 +7,7 @@
     "antigen",
     "git",
     "node",
+    "wget",
     "zsh"
   ],
   "apm_packages": [
@@ -52,11 +53,14 @@
     "android-file-transfer",
     "calibre",
     "homebrew/cask-fonts/font-fira-mono-for-powerline",
+    "homebrew/cask-fonts/font-jetbrains-mono",
     "firefox",
     "iterm2",
     "google-chrome",
     "google-backup-and-sync",
     "slack",
+    "obs",
+    "kap",
     "spotify",
     "steam",
     "xquartz",
