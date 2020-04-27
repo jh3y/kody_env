@@ -59,7 +59,6 @@
     "google-chrome",
     "google-backup-and-sync",
     "slack",
-    "obs",
     "kap",
     "spotify",
     "steam",
@@ -70,7 +69,10 @@
     "homebrew/cask-versions/firefox-developer-edition",
     "homebrew/cask-drivers/logitech-options",
     "spectacle",
-    "zoomus"
+    "zoomus",
+    "discord",
+    "streamlabs-obs",
+    "pretzel
   ],
   "fish_script": "fish/set_default.sh",
   "osx_script": "osx/set_default.sh",
