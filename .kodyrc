@@ -72,7 +72,7 @@
     "zoomus",
     "discord",
     "streamlabs-obs",
-    "pretzel
+    "pretzel"
   ],
   "fish_script": "fish/set_default.sh",
   "osx_script": "osx/set_default.sh",
