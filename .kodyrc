@@ -50,6 +50,7 @@
     "oderwat.indent-rainbow"
   ],
   "brew_casks": [
+    "authy",
     "android-file-transfer",
     "calibre",
     "homebrew/cask-fonts/font-fira-mono-for-powerline",
