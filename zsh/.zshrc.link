@@ -182,3 +182,5 @@ antigen apply
 
 echo Hey jh3y! 👋
 echo Time to write some code 👍
+
+export PATH="/usr/local/bin:$PATH"
